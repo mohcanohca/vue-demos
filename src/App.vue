@@ -1,16 +1,19 @@
 <template>
     <div id="app">
       <loop-demo></loop-demo>
+      <recursion-demo></recursion-demo>
     </div>
 </template>
 
 <script>
-    import LoopDemo from './components/Loop/index.vue'
+    import LoopDemo from './components/Loop/index.vue';
+    import RecursionDemo from './components/Recursion/index.vue';
 
     export default {
         name: 'App',
         components: {
-            LoopDemo
+            LoopDemo,
+            RecursionDemo
         }
     }
 </script>
