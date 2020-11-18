@@ -1,7 +1,7 @@
 <template>
     <div>
         <h1>组件递归调用</h1>
-        <recursion :count="3"></recursion>
+        <recursion :count="0"></recursion>
     </div>
     
 </template>
